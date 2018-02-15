@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+
+    android:orientation="vertical"
+    tools:context="com.snow.yp.demo.tempdemo.BankActivity">
+
+    <Button
+        android:id="@+id/btn_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="总览"
+
+        />
+
+    <Button
+        android:id="@+id/btn_generate_new_wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建新的钱包" />
+
+    <Button
+        android:id="@+id/btn_get_eth_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的钱包" />
+
+
+    <Button
+        android:id="@+id/btn_transaction_ocn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OCN交易" />
+
+    <Button
+        android:id="@+id/btn_transaction_eth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ETH交易" />
+
+
+    <Button
+        android:id="@+id/btn_transaction_specify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="指定账户金额交易" />
+
+
+</LinearLayout>
