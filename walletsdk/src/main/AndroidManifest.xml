@@ -23,7 +23,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.WalletMainActivity"
+            android:name="com.ocoin.activities.WalletMainActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
@@ -34,55 +34,55 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.AddressDetailActivity"
+            android:name="com.ocoin.activities.AddressDetailActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.QRScanActivity"
+            android:name="com.ocoin.activities.QRScanActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.SettingsActivity"
+            android:name="com.ocoin.activities.SettingsActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activities.WalletGenActivity"
+            android:name="com.ocoin.activities.WalletGenActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.RequestEtherActivity"
+            android:name="com.ocoin.activities.RequestEtherActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.SendActivity"
+            android:name="com.ocoin.activities.SendActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar2"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".activities.AppIntroActivity"
+            android:name="com.ocoin.activities.AppIntroActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar2" />
         <activity
-            android:name=".activities.PrivateKeyActivity"
+            android:name="com.ocoin.activities.PrivateKeyActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar2" />
 
         <activity
-            android:name=".activities.AppLockActivity"
+            android:name="com.ocoin.activities.AppLockActivity"
             android:configChanges="orientation"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar2" />
 
         <activity
-            android:name=".activities.SetAppLockActivity"
+            android:name="com.ocoin.activities.SetAppLockActivity"
             android:configChanges="orientation"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"
@@ -94,7 +94,7 @@
         </activity>
 
         <receiver
-            android:name=".receiver.BootReceiver"
+            android:name="com.ocoin.receiver.BootReceiver"
             android:enabled="true"
             android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
             <intent-filter>
@@ -106,14 +106,14 @@
         </receiver>
 
         <service
-            android:name=".services.NotificationService"
+            android:name="com.ocoin.services.NotificationService"
             android:exported="false" />
 
         <service
-            android:name=".services.WalletGenService"
+            android:name="com.ocoin.services.WalletGenService"
             android:exported="false" />
         <service
-            android:name=".services.TransactionService"
+            android:name="com.ocoin.services.TransactionService"
             android:exported="false" />
     </application>
 
